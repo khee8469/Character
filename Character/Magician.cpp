@@ -14,7 +14,7 @@ Magician::Magician(string nickname) : Player(nickname)
 
 void Magician::Attack(Monster* monster)
 {
-	printf("마법사 공격");
+	printf("마법사 공격\n");
 	if (power > monster->getDefence())
 	{
 		printf("%s에게 파이어볼로 %d의 피해를 입혔다!\n", monster->getName().c_str(), power - monster->getDefence());

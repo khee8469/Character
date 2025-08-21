@@ -14,7 +14,7 @@ Warrior::Warrior(string nickname) : Player(nickname)
 
 void Warrior::Attack(Monster* monster)
 {
-	printf("전사 공격");
+	printf("전사 공격\n");
 	if(power > monster->getDefence())
 	{
 		printf("%s에게 둔기로 %d의 피해를 입혔다!\n", monster->getName().c_str(), power - monster->getDefence());

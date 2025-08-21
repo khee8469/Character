@@ -14,7 +14,7 @@ Thief::Thief(string nickname) : Player(nickname)
 
 void Thief::Attack(Monster* monster)
 {
-	printf("도적 공격");
+	printf("도적 공격\n");
 	if (power > monster->getDefence() + 5)
 	{
 		for (int i = 0; i < 5; i++)

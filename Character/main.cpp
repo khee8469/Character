@@ -27,8 +27,9 @@ int main()
 	// 직업 선택
 	while(classType == UNKNOWN)
 	{
-		printf("직업을 선택하세요.\n");
-		printf("1. 전사 2. 마법사 3. 도적 4. 궁수\n");
+		printf("1. 전사 2. 궁수 3. 도적 4. 마법사\n");
+		printf("직업을 선택하세요. : ");
+		
 		if (scanf("%d", &inputNum) != 1) // 숫자가 아닌 경우
 		{
 			printf("잘못된 입력입니다.\n");

@@ -14,7 +14,7 @@ Archer::Archer(string nickname) : Player(nickname)
 
 void Archer::Attack(Monster* monster)
 {
-	printf("掙熱 奢問");
+	printf("掙熱 奢問\n");
 	if (power > monster->getDefence() + 3)
 	{
 		for(int i = 0; i < 3; i++)
